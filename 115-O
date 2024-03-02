@@ -1,0 +1,11 @@
+# Example usage:
+bst = BST()
+bst.insert(10)
+bst.insert(5)
+bst.insert(15)
+bst.insert(3)
+bst.insert(7)
+
+print(bst.search(7))  # Output: True
+bst.remove(7)
+print(bst.search(7))  # Output: False
